@@ -1,5 +1,7 @@
 // src/components/HeroSection.jsx
 import { Box, Typography } from '@mui/material';
+import homeLanding from '../assets/home-landing.webp';
+import avatarIcon from '../assets/avatar-icon.webp';
 
 const HeroSection = () => {
   return (
@@ -21,7 +23,7 @@ const HeroSection = () => {
         sx={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: 'url("src/assets/home-landing.webp")',
+          backgroundImage: `url("${homeLanding}")`,
           backgroundSize: 'cover',
           backgroundPosition: { xs: 'center top', sm: 'center' },
           zIndex: -2,
@@ -31,7 +33,7 @@ const HeroSection = () => {
       {/* Avatar */}
       <Box
         component="img"
-        src="/src/assets/avatar-icon.webp"
+        src={avatarIcon}
         alt="Temitope Emokpae"
         sx={{
           width: { xs: '8rem', sm: '11rem', md: '13.75rem', lg: '16.25rem' },  // rem units

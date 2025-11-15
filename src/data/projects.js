@@ -1,3 +1,41 @@
+// FoodieSafety
+import foodie1 from './foodie-wireframe-1.png';
+import foodie2 from './foodie-wireframe-2.png';
+import foodie3 from './foodie-wireframe-3.png';
+import foodieDemo1 from './foodie-safety demo 1.gif';
+import foodieDemo2 from './foodie-safety demo 2.gif';
+import foodieDemo3 from './foodie-safety demo 3.gif';
+
+// CS Web App
+import cs1 from './cs-web-app-wireframe-1.png';
+import cs2 from './cs-web-app-wireframe-2.png';
+import cs3 from './cs-web-app-wireframe-3.png';
+import cs4 from './cs-web-app-wireframe-4.png';
+import csProto1 from './cs-web-app-prototype-1.png';
+import csProto2 from './cs-web-app-prototype-2.png';
+import csProto3 from './cs-web-app-prototype-3.png';
+import csProto4 from './cs-web-app-prototype-4.png';
+import csProto5 from './cs-web-app-prototype-5.png';
+import csProto6 from './cs-web-app-prototype-6.png';
+import csProto7 from './cs-web-app-prototype-7.png';
+
+// KimiNoMelody
+import km1 from './kiminomelody-wireframe-1.png';
+import km2 from './kiminomelody-wireframe-2.png';
+import km3 from './kiminomelody-wireframe-3.png';
+import km4 from './kiminomelody-wireframe-4.png';
+import km5 from './kiminomelody-wireframe-5.png';
+import kmProto1 from './kiminomelody-prototype-1.png';
+import kmProto2 from './kiminomelody-prototype-2.png';
+import kmProto3 from './kiminomelody-prototype-3.png';
+import kmProto4 from './kiminomelody-prototype-4.png';
+import kmProto5 from './kiminomelody-prototype-5.png';
+
+// BookScript
+import bookscriptHome from './bookscript-home.png';
+import bookscriptCatalog from './bookscript-catalog.png';
+import bookscriptDashboard from './bookscript-dashboard.png';
+
 export const projects = [
     {
         title: 'FoodieSafety',
@@ -17,12 +55,12 @@ export const projects = [
         ],
         results: 'Lighthouse score increased from 78 → 94; positive feedback from stakeholders',
         artifacts: [
-            { src: '/src/assets/foodie-wireframe-1.png', alt: 'FoodieSafety Landing Page' },
-            { src: '/src/assets/foodie-wireframe-2.png', alt: 'FoodieSafety Recall Page' },
-            { src: '/src/assets/foodie-wireframe-3.png', alt: 'FoodieSafety Dashboard Page' },
-            { src: '/src/assets/foodie-safety demo 1.gif', alt: 'FoodieSafety Signup/Login Demo' },
-            { src: '/src/assets/foodie-safety demo 2.gif', alt: 'FoodieSafety Barcode Scanner Demo' },
-            { src: '/src/assets/foodie-safety demo 3.gif', alt: 'FoodieSafety Subscription Demo' },
+            { src: foodie1, alt: 'FoodieSafety Landing Page' },
+            { src: foodie2, alt: 'FoodieSafety Recall Page' },
+            { src: foodie3, alt: 'FoodieSafety Dashboard Page' },
+            { src: foodieDemo1, alt: 'FoodieSafety Signup/Login Demo' },
+            { src: foodieDemo2, alt: 'FoodieSafety Barcode Scanner Demo' },
+            { src: foodieDemo3, alt: 'FoodieSafety Subscription Demo' },
         ],
         techStack: ['React.js', 'Figma', 'Bootstrap', 'FastAPI', 'Python', 'UI/UX Design'],
     },
@@ -42,17 +80,17 @@ export const projects = [
         ],
         results: 'Reduced onboarding time by 40%, raised Lighthouse score from 78 → 94',
         artifacts: [
-            { src: '/src/assets/cs-web-app-wireframe-1.png', alt: 'CS Ethics Web App Login Wireframe' },
-            { src: '/src/assets/cs-web-app-wireframe-2.png', alt: 'CS Ethics Web App Search Wireframe' },
-            { src: '/src/assets/cs-web-app-wireframe-3.png', alt: 'CS Ethics Web App Upload Article Wireframe' },
-            { src: '/src/assets/cs-web-app-wireframe-4.png', alt: 'CS Ethics Web App Tag Management Wireframe' },
-            { src: '/src/assets/cs-web-app-prototype-1.png', alt: 'CS Ethics Web App Landing Page Prototype' },
-            { src: '/src/assets/cs-web-app-prototype-2.png', alt: 'CS Ethics Web App Signup Prototype' },
-            { src: '/src/assets/cs-web-app-prototype-3.png', alt: 'CS Ethics Web App Login Prototype' },
-            { src: '/src/assets/cs-web-app-prototype-4.png', alt: 'CS Ethics Web App Dashboard Prototype' },
-            { src: '/src/assets/cs-web-app-prototype-5.png', alt: 'CS Ethics Web App Article Details Prototype' },
-            { src: '/src/assets/cs-web-app-prototype-6.png', alt: 'CS Ethics Web App Search Functionality Prototype' },
-            { src: '/src/assets/cs-web-app-prototype-7.png', alt: 'CS Ethics Web App Tag Management Prototype' },
+            { src: cs1, alt: 'CS Ethics Web App Login Wireframe' },
+            { src: cs2, alt: 'CS Ethics Web App Search Wireframe' },
+            { src: cs3, alt: 'CS Ethics Web App Upload Article Wireframe' },
+            { src: cs4, alt: 'CS Ethics Web App Tag Management Wireframe' },
+            { src: csProto1, alt: 'CS Ethics Web App Landing Page Prototype' },
+            { src: csProto2, alt: 'CS Ethics Web App Signup Prototype' },
+            { src: csProto3, alt: 'CS Ethics Web App Login Prototype' },
+            { src: csProto4, alt: 'CS Ethics Web App Dashboard Prototype' },
+            { src: csProto5, alt: 'CS Ethics Web App Article Details Prototype' },
+            { src: csProto6, alt: 'CS Ethics Web App Search Functionality Prototype' },
+            { src: csProto7, alt: 'CS Ethics Web App Tag Management Prototype' },
         ],
         techStack: ['React.js', 'Next.js', 'Figma', 'Tailwind CSS', 'MongoDB', 'Confluence', 'UI/UX Design'],
     },
@@ -74,16 +112,16 @@ export const projects = [
         ],
         results: 'Increased user engagement during testing, with users creating multiple playlists and leaving comments; positive feedback on community features and UI clarity',
         artifacts: [
-            { src: '/src/assets/kiminomelody-wireframe-1.png', alt: 'KimiNoMelody Home Page Low-Fidelity Wireframe' },
-            { src: '/src/assets/kiminomelody-wireframe-2.png', alt: 'KimiNoMelody Browse Songs Low-Fidelity Wireframe' },
-            { src: '/src/assets/kiminomelody-wireframe-3.png', alt: 'KimiNoMelody Main Song Details Low-Fidelity Wireframe' },
-            { src: '/src/assets/kiminomelody-wireframe-4.png', alt: 'KimiNoMelody Upload Song Low-Fidelity Wireframe' },
-            { src: '/src/assets/kiminomelody-wireframe-5.png', alt: 'KimiNoMelody Profile Low-Fidelity Wireframe' },
-            { src: '/src/assets/kiminomelody-prototype-1.png', alt: 'KimiNoMelody Home Page High-Fidelity Prototype' },
-            { src: '/src/assets/kiminomelody-prototype-2.png', alt: 'KimiNoMelody Browse Songs High-Fidelity Prototype' },
-            { src: '/src/assets/kiminomelody-prototype-3.png', alt: 'KimiNoMelody Main Song Details High-Fidelity Prototype' },
-            { src: '/src/assets/kiminomelody-prototype-4.png', alt: 'KimiNoMelody Upload Song High-Fidelity Prototype' },
-            { src: '/src/assets/kiminomelody-prototype-5.png', alt: 'KimiNoMelody Profile High-Fidelity Prototype' },
+            { src: km1, alt: 'KimiNoMelody Home Page Low-Fidelity Wireframe' },
+            { src: km2, alt: 'KimiNoMelody Browse Songs Low-Fidelity Wireframe' },
+            { src: km3, alt: 'KimiNoMelody Main Song Details Low-Fidelity Wireframe' },
+            { src: km4, alt: 'KimiNoMelody Upload Song Low-Fidelity Wireframe' },
+            { src: km5, alt: 'KimiNoMelody Profile Low-Fidelity Wireframe' },
+            { src: kmProto1, alt: 'KimiNoMelody Home Page High-Fidelity Prototype' },
+            { src: kmProto2, alt: 'KimiNoMelody Browse Songs High-Fidelity Prototype' },
+            { src: kmProto3, alt: 'KimiNoMelody Main Song Details High-Fidelity Prototype' },
+            { src: kmProto4, alt: 'KimiNoMelody Upload Song High-Fidelity Prototype' },
+            { src: kmProto5, alt: 'KimiNoMelody Profile High-Fidelity Prototype' },
         ],
         techStack: ['HTML', 'CSS', 'JavaScript', 'Balsamiq', 'UI/UX Design'],
     },
@@ -108,9 +146,9 @@ export const projects = [
         ],
         results: 'Successfully delivered as a capstone coursework project; praised for clean UI, stable API design, and well-structured database implementation',
         artifacts: [
-            { src: '/src/assets/bookscript-home.png', alt: 'Graphic Bookstore Home Page with featured titles' },
-            { src: '/src/assets/bookscript-catalog.png', alt: 'Graphic Bookstore catalog browsing and filtering interface' },
-            { src: '/src/assets/bookscript-dashboard.png', alt: 'User dashboard' },
+            { src: bookscriptHome, alt: 'Graphic Bookstore Home Page with featured titles' },
+            { src: bookscriptCatalog, alt: 'Graphic Bookstore catalog browsing and filtering interface' },
+            { src: bookscriptDashboard, alt: 'User dashboard' },
         ],
         techStack: [
             'Figma', 'HTML', 'CSS', 'JavaScript', 'TypeScript',
