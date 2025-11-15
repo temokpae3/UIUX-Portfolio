@@ -1,9 +1,24 @@
 // src/components/HeroSection.jsx
+import { useEffect } from 'react';
 import { Box, Typography } from '@mui/material';
 import homeLanding from '../assets/home-landing.webp';
 import avatarIcon from '../assets/avatar-icon.webp';
 
 const HeroSection = () => {
+  // Preload images for performance
+  useEffect(() => {
+    const preloadImage = (src) => {
+      const link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.href = src;
+      document.head.appendChild(link);
+    };
+
+    preloadImage(homeLanding);
+    preloadImage(avatarIcon);
+  }, []);
+
   return (
     <Box
       sx={{
@@ -14,16 +29,16 @@ const HeroSection = () => {
         alignItems: 'center',
         justifyContent: 'center',
         textAlign: 'center',
-        textShadow: "0.1em 0.1em 0.3em rgba(0,0,0,0.8)",
+        textShadow: '0.1em 0.1em 0.3em rgba(0,0,0,0.8)',
         backgroundColor: 'rgba(0,0,0,0.5)',
       }}
     >
-      {/* Background image */}
+      {/* Background Image */}
       <Box
         sx={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: `url("${homeLanding}")`,
+          backgroundImage: `url(${homeLanding})`,
           backgroundSize: 'cover',
           backgroundPosition: { xs: 'center top', sm: 'center' },
           zIndex: -2,
@@ -36,11 +51,11 @@ const HeroSection = () => {
         src={avatarIcon}
         alt="Temitope Emokpae"
         sx={{
-          width: { xs: '8rem', sm: '11rem', md: '13.75rem', lg: '16.25rem' },  // rem units
+          width: { xs: '8rem', sm: '11rem', md: '13.75rem', lg: '16.25rem' },
           height: { xs: '8rem', sm: '11rem', md: '13.75rem', lg: '16.25rem' },
-          mb: { xs: '1.25rem', sm: '1.875rem', md: '2.5rem' }, // vertical spacing
+          mb: { xs: '1.25rem', sm: '1.875rem', md: '2.5rem' },
           borderRadius: '50%',
-          border: { xs: '0.25rem solid #22313C' }, 
+          border: { xs: '0.25rem solid #22313C' },
           objectFit: 'cover',
           pointerEvents: 'none',
         }}
@@ -59,7 +74,7 @@ const HeroSection = () => {
         Temi Emokpae
       </Typography>
 
-      {/* Education lines */}
+      {/* Education */}
       <Typography
         component="h2"
         sx={{
