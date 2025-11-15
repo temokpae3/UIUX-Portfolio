@@ -1,40 +1,40 @@
 // FoodieSafety
-import foodie1 from './foodie-wireframe-1.png';
-import foodie2 from './foodie-wireframe-2.png';
-import foodie3 from './foodie-wireframe-3.png';
-import foodieDemo1 from './foodie-safety demo 1.gif';
-import foodieDemo2 from './foodie-safety demo 2.gif';
-import foodieDemo3 from './foodie-safety demo 3.gif';
+import foodie1 from '../assets/foodie-wireframe-1.png';
+import foodie2 from '../assets/foodie-wireframe-2.png';
+import foodie3 from '../assets/foodie-wireframe-3.png';
+import foodieDemo1 from '../assets/foodie-safety demo 1.gif';
+import foodieDemo2 from '../assets/foodie-safety demo 2.gif';
+import foodieDemo3 from '../assets/foodie-safety demo 3.gif';
 
 // CS Web App
-import cs1 from './cs-web-app-wireframe-1.png';
-import cs2 from './cs-web-app-wireframe-2.png';
-import cs3 from './cs-web-app-wireframe-3.png';
-import cs4 from './cs-web-app-wireframe-4.png';
-import csProto1 from './cs-web-app-prototype-1.png';
-import csProto2 from './cs-web-app-prototype-2.png';
-import csProto3 from './cs-web-app-prototype-3.png';
-import csProto4 from './cs-web-app-prototype-4.png';
-import csProto5 from './cs-web-app-prototype-5.png';
-import csProto6 from './cs-web-app-prototype-6.png';
-import csProto7 from './cs-web-app-prototype-7.png';
+import cs1 from '../assets/cs-web-app-wireframe-1.png';
+import cs2 from '../assets/cs-web-app-wireframe-2.png';
+import cs3 from '../assets/cs-web-app-wireframe-3.png';
+import cs4 from '../assets/cs-web-app-wireframe-4.png';
+import csProto1 from '../assets/cs-web-app-prototype-1.png';
+import csProto2 from '../assets/cs-web-app-prototype-2.png';
+import csProto3 from '../assets/cs-web-app-prototype-3.png';
+import csProto4 from '../assets/cs-web-app-prototype-4.png';
+import csProto5 from '../assets/cs-web-app-prototype-5.png';
+import csProto6 from '../assets/cs-web-app-prototype-6.png';
+import csProto7 from '../assets/cs-web-app-prototype-7.png';
 
 // KimiNoMelody
-import km1 from './kiminomelody-wireframe-1.png';
-import km2 from './kiminomelody-wireframe-2.png';
-import km3 from './kiminomelody-wireframe-3.png';
-import km4 from './kiminomelody-wireframe-4.png';
-import km5 from './kiminomelody-wireframe-5.png';
-import kmProto1 from './kiminomelody-prototype-1.png';
-import kmProto2 from './kiminomelody-prototype-2.png';
-import kmProto3 from './kiminomelody-prototype-3.png';
-import kmProto4 from './kiminomelody-prototype-4.png';
-import kmProto5 from './kiminomelody-prototype-5.png';
+import km1 from '../assets/kiminomelody-wireframe-1.png';
+import km2 from '../assets/kiminomelody-wireframe-2.png';
+import km3 from '../assets/kiminomelody-wireframe-3.png';
+import km4 from '../assets/kiminomelody-wireframe-4.png';
+import km5 from '../assets/kiminomelody-wireframe-5.png';
+import kmProto1 from '../assets/kiminomelody-prototype-1.png';
+import kmProto2 from '../assets/kiminomelody-prototype-2.png';
+import kmProto3 from '../assets/kiminomelody-prototype-3.png';
+import kmProto4 from '../assets/kiminomelody-prototype-4.png';
+import kmProto5 from '../assets/kiminomelody-prototype-5.png';
 
 // BookScript
-import bookscriptHome from './bookscript-home.png';
-import bookscriptCatalog from './bookscript-catalog.png';
-import bookscriptDashboard from './bookscript-dashboard.png';
+import bookscriptHome from '../assets/bookscript-home.png';
+import bookscriptCatalog from '../assets/bookscript-catalog.png';
+import bookscriptDashboard from '../assets/bookscript-dashboard.png';
 
 export const projects = [
     {
